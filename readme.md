@@ -1,22 +1,6 @@
-<img src="https://static.begin.app/node-minimal/readme-banner.png" width="553">
+This demonstrates the pattern of using an npm module as an installed hanlder function for `arc.http.async`
+Specifically this demomstrates a package that looks up the fingerprinted file name of a static asset in an architect app.
 
-[![Begin build status](https://buildstatus.begin.app/dream-9jy/status.svg)](https://begin.com)
-
-A simple app with the minimum necessary file structure to get started on Begin.
-
-## Deploy your own
-
-[![Deploy to Begin](https://static.begin.com/deploy-to-begin.svg)](https://begin.com/apps/create?template=https://github.com/begin-examples/node-minimal)
-
-Deploy your own clone of this app to Begin!
-
-## Getting started
-
-- Start the local dev server: `npm start`
-
-## Reference
-
-- [Quickstart](https://docs.begin.com/en/guides/quickstart/) - basics on working locally, project structure, deploying, and accessing your Begin app
-- [Creating new routes](https://docs.begin.com/en/functions/creating-new-functions) - basics on expanding the capabilities of your app
-
-Head to [docs.begin.com](https://docs.begin.com/) to learn more!
+Static files are stored in the `/public` folder by default in an arc app.
+Assets in the `/public` folder are fingerprinted by default in arc apps.
+If you have an app that needs to define an index route for dynamic content then you can use this pattern to add a route to access fingerprinted files.
