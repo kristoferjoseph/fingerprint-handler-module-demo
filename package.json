@@ -7,5 +7,20 @@
   },
   "devDependencies": {
     "@architect/sandbox": "^4.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristoferjoseph/test-minimal-006.git"
+  },
+  "keywords": [],
+  "author": "kj <kj@begin.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kristoferjoseph/test-minimal-006/issues"
+  },
+  "homepage": "https://github.com/kristoferjoseph/test-minimal-006#readme",
+  "dependencies": {
+    "@architect/functions": "^4.0.0"
   }
 }
